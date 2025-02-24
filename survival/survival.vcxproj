@@ -73,22 +73,22 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IncludePath>$(SolutionDir)Dependencies\SFML\include;$(IncludePath)</IncludePath>
     <LibraryPath>$(SolutionDir)Dependencies\SFML\lib;$(LibraryPath)</LibraryPath>
-    <OutDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\bin</OutDir>
-    <IntDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\intermediate</IntDir>
+    <OutDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\bin\</OutDir>
+    <IntDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\intermediate\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IncludePath>$(SolutionDir)Dependencies\SFML\include;$(IncludePath)</IncludePath>
     <LibraryPath>$(SolutionDir)Dependencies\SFML\lib;$(LibraryPath)</LibraryPath>
-    <OutDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\bin</OutDir>
-    <IntDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\intermediate</IntDir>
+    <OutDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\bin\</OutDir>
+    <IntDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\intermediate\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\bin</OutDir>
-    <IntDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\intermediate</IntDir>
+    <OutDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\bin\</OutDir>
+    <IntDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\intermediate\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\bin</OutDir>
-    <IntDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\intermediate</IntDir>
+    <OutDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\bin\</OutDir>
+    <IntDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\intermediate\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
